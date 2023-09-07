@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>接單系統</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .accept-button {
+            text-align: center;
+        }
+
+        .completed {
+            background-color: #d1ffd8;
+        }
+
+        .pending {
+            background-color: white;
+        }
+        /* 調整"待處理訂單"表格欄位大小 */
+        table.pending tbody td:nth-child(1),
+        table.pending tbody th:nth-child(1) {
+            width: 10%;
+        }
+
+        table.pending tbody td:nth-child(2),
+        table.pending tbody th:nth-child(2) {
+            width: 15%;
+        }
+
+        table.pending tbody td:nth-child(3),
+        table.pending tbody th:nth-child(3) {
+            width: 20%;
+        }
+
+        table.pending tbody td:nth-child(4),
+        table.pending tbody th:nth-child(4) {
+            width: 15%;
+        }
+
+        table.pending tbody td:nth-child(5),
+        table.pending tbody th:nth-child(5) {
+            width: 10%;
+        }
+
+        /* 調整"已完成訂單"表格欄位大小 */
+        table.completed tbody td:nth-child(1),
+        table.completed tbody th:nth-child(1) {
+            width: 10%;
+        }
+
+        table.completed tbody td:nth-child(2),
+        table.completed tbody th:nth-child(2) {
+            width: 15%;
+        }
+
+        table.completed tbody td:nth-child(3),
+        table.completed tbody th:nth-child(3) {
+            width: 15%;
+        }
+
+        table.completed tbody td:nth-child(4),
+        table.completed tbody th:nth-child(4) {
+            width: 20%;
+        }
+
+        table.completed tbody td:nth-child(5),
+        table.completed tbody th:nth-child(5) {
+            width: 10%;
+        }
+        .button {
+            background-color: #6dc26d;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>接單系統</h1>
+    </header>
+    <div class="container">
+        <h2>待處理訂單</h2>
+        <table class="pending">
+            <thead>
+                <tr>
+                    <th>單號</th>
+                    <th>總額</th>
+                    <th>客戶送單時間</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>$100</td>
+                    <td>2023-09-05 13:30</td>
+                    <td><button class="button">查看品項</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>已完成訂單</h2>
+        <table class="completed">
+            <thead>
+                <tr>
+                    <th>單號</th>
+                    <th>訂單狀態</th>
+                    <th>總額</th>
+                    <th>完成時間</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>002</td>
+                    <td>已完成</td>
+                    <td>$50</td>
+                    <td id="orderTime2">2023-09-05 13:50</td>
+                    <td><button class="button">修改</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
