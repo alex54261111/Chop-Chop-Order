@@ -44,6 +44,13 @@ body {
     margin: 10px 0 ;
 }
 
+.plan-container p{
+    background: url(../img/icon/check-circle.png)no-repeat left center;
+    background-size: contain;
+    padding-left: 35px;
+    margin-left: 0.33em;
+}
+
 .page-container span{
     color: rgb(203, 203, 203);
 }
