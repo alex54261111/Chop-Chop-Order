@@ -1,0 +1,124 @@
+# Query: 接單
+
+34 個結果 - 13 個檔案
+
+contact.html:
+   87                              <ul>
+   88:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+   89                                  <li><a href="#">報表分析</a></li>
+
+  104                              <ul>
+  105:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  106                                  <li><a href="#">營業報表分析</a></li>
+
+  130                              <input type="checkbox" name="checkbox-item" class="form__input">
+  131:                             <span class="checkbox__label">接單系統</span>
+  132                          </label>
+
+index.html:
+  29                              <ul>
+  30:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  31                                  <li><a href="#">報表分析</a></li>
+
+  46                              <ul>
+  47:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  48                                  <li><a href="#">營業報表分析</a></li>
+
+login.html:
+  71                              <ul>
+  72:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  73                                  <li><a href="#">報表分析</a></li>
+
+  85                              <ul>
+  86:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  87                                  <li><a href="#">報表分析</a></li>
+
+OderSystem.html:
+   72                              <ul>
+   73:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+   74                                  <li><a href="#">報表分析</a></li>
+
+   89                              <ul>
+   90:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+   91                                  <li><a href="#">營業報表分析</a></li>
+
+   99              <div class="loginContainer pageWrapper">
+  100:                 <h2>接單管理</h2>
+  101:                 <p>透過接單機輕鬆一鍵接單／拒單，或是上／下架商品，讓你不再掉單、漏單</p>
+  102                  <p>「預約訂單」功能可幫助店家事前備料、準備訂單，避免單量過大而影響出單</p>
+  103:                 <p>同時支援 Android／iOS 系統，一台平板就能接單、出單、上下架商品，完成訂單大小事</p>
+  104              </div>
+
+plan.html:
+  32                              <ul>
+  33:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  34                                  <li><a href="#">報表分析</a></li>
+
+  49                              <ul>
+  50:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  51                                  <li><a href="#">營業報表分析</a></li>
+
+QFA.html:
+  123                              <ul>
+  124:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  125                                  <li><a href="#">報表分析</a></li>
+
+  140                              <ul>
+  141:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  142                                  <li><a href="#">營業報表分析</a></li>
+
+Report.html:
+  70                              <ul>
+  71:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  72                                  <li><a href="#">報表分析</a></li>
+
+  87                              <ul>
+  88:                                 <li><a href="./OderSystem.html">接單系統</a></li>
+  89                                  <li><a href="#">營業報表分析</a></li>
+
+  97              <div class="loginContainer pageWrapper">
+  98:                 <h2>接單管理</h2>
+  99:                 <p>"專業、高效的接單系統，為您的業務注入活力！我們的接單系統是一個全面自動化的解決方案，專為餐廳、外賣店以及其他飲食業者打造。這個系統不僅能夠輕鬆管理您的訂單，還提供了實時通知、智能路由和即時更新等功能，確保您能夠即時處理訂單並提供出色的服務。無論是在店內接單還是外送外帶，我們的接單系統都能夠提供高效率和卓越的用戶體驗。立即採用我們的接單系統，提升您的業務運營效率，滿足客戶的需求！"</p>
+  100              </div>
+
+組員前端/Chop-Chop-Order-h61685-patch-1/內場刊版.html:
+  70                      <th>單價</th>
+  71:                     <th>接單時間</th>                
+  72                  </tr>
+
+組員前端/Chop-Chop-Order-h61685-patch-1/勘板系統.html:
+  70                      <th>單價</th>
+  71:                     <th>接單時間</th>                
+  72                  </tr>
+
+組員前端/Chop-Chop-Order-h61685-patch-1/接單系統.html:
+    6      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    7:     <title>接單系統</title>
+    8      <style>
+
+  127      <header>
+  128:         <h1>接單系統</h1>
+  129      </header>
+
+組員前端/Chop-Chop-Order-Ray/勘板系統.html:
+  70                      <th>單價</th>
+  71:                     <th>接單時間</th>                
+  72                  </tr>
+
+組員前端/Chop-Chop-Order-Ray/接單系統.html:
+    6      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    7:     <title>接單系統</title>
+    8      <style>
+
+  127      <header>
+  128:         <h1>接單系統</h1>
+  129      </header>
+
+組員前端/Chop-Chop-Order-Willy/subscriptionManage.html:
+  53                      線上點餐<br>
+  54:                     外送通路接單整合(Uber Eats、foodpanda)<br>
+  55                      LINE行動管理後台<br>
+
+  63                      線上點餐<br>
+  64:                     外送通路接單整合(Uber Eats、foodpanda)<br>
+  65                      LINE行動管理後台<br>
